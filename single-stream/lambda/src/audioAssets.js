@@ -1,13 +1,13 @@
 'use strict';
 
 var audioData = {
-    title: 'My Radio',
-    subtitle: 'Less bla bla, more la la',
-    cardContent: "Visit our web site https://www.myradio.com",
-    url: 'https://audio1.maxi80.com',
+    title: '9 minute workout',
+    subtitle: 'Do your workout!',
+    cardContent: "Do your workout!",
+    url: 'https://s3.amazonaws.com/9-minuteworkout/full-workout.mp3',
     image: {
-        largeImageUrl: 'https://s3-eu-west-1.amazonaws.com/alexa.maxi80.com/assets/alexa-artwork-1200.png',
-        smallImageUrl: 'https://s3-eu-west-1.amazonaws.com/alexa.maxi80.com/assets/alexa-artwork-720.png'
+        largeImageUrl: '', //1200
+        smallImageUrl: '' // 720
     }
 };
 

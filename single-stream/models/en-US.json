@@ -1,30 +1,13 @@
 {
   "interactionModel": {
     "languageModel": {
-      "invocationName": "my radio",
+      "invocationName": "my nine minute workout",
       "intents": [
         {
           "name": "PlayAudio",
           "samples": [
-            "play",
-            "start",
-            "play my radio",
-            "play my radio please",
-            "start my radio",
-            "start my radio please",
-            "start the radio",
-            "start the radio please",
-            "play the radio",
-            "play the radio please",
-            "start the audio",
-            "start the audio please",
-            "play the audio",
-            "play the audio please",
-            "start the music",
-            "start the music please",
-            "play the music",
-            "play the music please"
-          ]
+            "start"
+		  ]
         },
         {
           "name": "AMAZON.PauseIntent"
@@ -33,18 +16,7 @@
           "name": "AMAZON.ResumeIntent"
         },
         {
-          "name": "AMAZON.HelpIntent",
-          "samples": [
-            "help me please",
-            "help please",
-            "what should i do",
-            "what's next",
-            "how can I listen to my radio",
-            "tell me how to play",
-            "tell me how to stop",
-            "tell me how to resume",
-            "how to stop"
-          ]
+          "name": "AMAZON.HelpIntent"
         },
         {
           "name": "AMAZON.StopIntent"
